@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     
-      <title>{{ config('app.name', 'WouwLite SD') }}</title>
+      <title>{{ config('app.name', 'WouwLite Dispatch') }}</title>
     
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -46,7 +46,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="{{ url('/dashboard') }}">{{ config('app.name', 'WouwLite SD') }}</a>
+                <a class="navbar-brand" href="{{ url('/dashboard') }}">{{ config('app.name', 'WouwLite Dispatch') }}</a>
             </div>
             <!-- /.navbar-header -->
 
