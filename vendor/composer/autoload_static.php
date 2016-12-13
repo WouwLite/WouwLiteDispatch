@@ -283,6 +283,7 @@ class ComposerStaticInitf68294ecf18bf7b219574ff584b74299
         'CreateDispatchMedicalTable' => __DIR__ . '/../..' . '/database/migrations/2016_11_10_213240_create_dispatch_medical_table.php',
         'CreateDispatchSecurityTable' => __DIR__ . '/../..' . '/database/migrations/2016_11_10_213223_create_dispatch_security_table.php',
         'CreatePasswordResetsTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_100000_create_password_resets_table.php',
+        'CreatePatrolTable' => __DIR__ . '/../..' . '/database/migrations/2016_12_13_151620_create_patrol_table.php',
         'CreateUsersTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_000000_create_users_table.php',
         'DatabaseSeeder' => __DIR__ . '/../..' . '/database/seeds/DatabaseSeeder.php',
         'Dispatch' => __DIR__ . '/../..' . '/database/migrations/2016_10_05_115338_dispatch.php',

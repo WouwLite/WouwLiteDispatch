@@ -75,7 +75,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    WouwLite Smart Dispatch
+                    WouwLite Dispatch
                 </div>
 
                 <div class="links">

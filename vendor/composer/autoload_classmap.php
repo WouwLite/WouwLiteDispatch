@@ -11,6 +11,7 @@ return array(
     'CreateDispatchMedicalTable' => $baseDir . '/database/migrations/2016_11_10_213240_create_dispatch_medical_table.php',
     'CreateDispatchSecurityTable' => $baseDir . '/database/migrations/2016_11_10_213223_create_dispatch_security_table.php',
     'CreatePasswordResetsTable' => $baseDir . '/database/migrations/2014_10_12_100000_create_password_resets_table.php',
+    'CreatePatrolTable' => $baseDir . '/database/migrations/2016_12_13_151620_create_patrol_table.php',
     'CreateUsersTable' => $baseDir . '/database/migrations/2014_10_12_000000_create_users_table.php',
     'DatabaseSeeder' => $baseDir . '/database/seeds/DatabaseSeeder.php',
     'Dispatch' => $baseDir . '/database/migrations/2016_10_05_115338_dispatch.php',

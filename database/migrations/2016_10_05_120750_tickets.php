@@ -20,14 +20,20 @@ class Tickets extends Migration
             // Add special items to correctly identify the ticket
             $table->integer('weeklyID', 5); // For example: 1640 (year + week)
             $table->integer('dailyID', 9); // For example: 05102016 (day + month + year)
+            $table->string('location', 100);
+            $table->string('contact-name', 100); // Contact name
+            $table->string('contact-phone', 100); // Contact phone number
+            $table->string('description', 100); // Open area for client to fill in global data
+            $table->integer('type', 100); // Assign type; Org, Security, Medical, Fire, other
             $table->date('create_date');
             $table->time('create_time');
             
             // Edit the ticket
-            $table->something();
+            $table->integer('agent-id');
+            $table->string('agent-response', 255);
             $table->date('updated_at');
             
-            // Clode the ticket
+            // Close the ticket
             $table->integer('closed', 2);
             $table->date('closed_at');
             $table->timestamps();
